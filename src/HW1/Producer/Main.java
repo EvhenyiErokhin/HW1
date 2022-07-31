@@ -7,5 +7,6 @@ public class Main {
         Consumer consumer = new Consumer(film);
         producer.run();
         consumer.run();
+        System.out.println("HW2");
     }
 }
